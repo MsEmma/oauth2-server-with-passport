@@ -1,0 +1,18 @@
+{
+  "name": "oauth2-server-with-passport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "npx supervisor app.js",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "passport": "^0.4.0",
+    "passport-oauth2": "^1.5.0"
+  }
+}
